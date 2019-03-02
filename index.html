@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Github profile: Facundo Ballesteros</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container p-4">
+		<div class="row p-4 mt-4 mb-4 bg-info text-white shadow-lg" id="title">
+			<div class="col-md-12">
+				<h1 id="nombre">Github Profile - </h1>
+			</div>
+		</div>
+		<div class="row p-4 text-white shadow-lg" id="info">
+			<div class="col-md-4">
+				<div id="img"></div>
+			</div>
+			<div class="col-md-7 my-auto">
+				<div id="name"><strong>Name:</strong> </div>
+				<div id="blog"><strong>LinkedIn:</strong> </div>
+				<div id="location"><strong>Location:</strong> </div>
+				<div id="id"><strong>ID:</strong> </div>
+				<div id="num-repos"><strong>Repositories:</strong> </div>
+			</div>
+		</div>
+		<div class="row p-4 text-white shadow-lg" id="repos-table">
+			<div class="col-md-12 text-white">
+				<h1 class="repos-title">Repositories</h1>
+				<table id="repos" class="table text-white">
+					<thead>
+					    <tr>
+					      <th scope="col">#</th>
+					      <th scope="col">Nombre</th>
+					      <th scope="col">Descripcion</th>
+					      <th scope="col">Link</th>
+					    </tr>
+					  </thead>
+					  <tbody>
+					  </tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
